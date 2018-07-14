@@ -1,36 +1,40 @@
-<?php /* Template Name: About Us Page Template */ ?>
+<?php /* Template Name: About Us Test Page Template */ ?>
 <?php get_header(); ?>
 
 
 <h1><?php the_title(); ?></h1>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!-- Normal Page Content Loop -->
+<?php
+while ( have_posts() ) : the_post();
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+the_content();
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+endwhile; // End of the loop.
+?>
+
+
+<!-- Custom Post Type Loop (with 'gallery' as the post type 'slug') -->
+<?php
+$args = array( 'post_type' => 'gallery', 'posts_per_page' => 20 );
+$loop = new WP_Query( $args );
+while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+
+	<hr>
+	<h2 class="name"><?php the_title(); ?></h2>
+	<img src="<?php the_field('image'); ?>">
+	<!-- 
+	<h3><?php the_field('position'); ?></h3>
+	<p><?php the_field('description'); ?></p>
+	<a href="tel:<?php the_field('phone'); ?>"><?php the_field('phone'); ?></a>
+	<a href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a> 
+	-->
+	<hr>
+
+<!-- end custom port type loop -->
+<?php endwhile; ?>
 
 
 <?php get_footer(); ?>
