@@ -126,7 +126,7 @@ a:hover a:active {
 
 }
 
-/* Home Page styles*/
+/**************************** Home Page styles******************************************/
 
 #home-container {
     margin: 0;
@@ -259,3 +259,67 @@ a:hover a:active {
 
 }
 
+
+
+/*******************Board & Staff page*********************************/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-container {
+    display: block;
+    overflow: auto;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #e8e8e8;
+}
+
+.staff-image {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    padding: 2%;
+
+}
+.sm_img {
+    height: auto;
+    max-width: 180px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.staff-card {
+    display: inline-block;
+    float: left;
+    width: 75%;
+    padding: 1% 2% 1% 0;
+}
+
+.staff-card * {
+    margin: 0;
+}
+
+.sm_name {
+    font-family: Calibri, sans-sarif;
+    font-size: 30px;;
+    font-weight: bold;
+    color: #FE27B3;
+    margin: 0;
+    padding: 0;
+}
+
+.sm_title {
+    font-family: Calibri, sans-sarif;
+    font-size: 22px;
+    margin: 0 0 1em 0;
+}
+
+.sm_bio {
+    font-family: Calibri, sans-sarif;
+    font-size: 16px;
+}
