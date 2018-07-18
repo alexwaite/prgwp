@@ -285,7 +285,7 @@ a:hover a:active {
     width: 90%;
     margin: 1.5em auto 1em auto;
     font-family: "Catamaran", Calibri, sans-serif, sans-serif;
-    font-size: 48px;;
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -295,10 +295,13 @@ a:hover a:active {
     overflow: auto;
     width: 90%;
     margin: 0 auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: #ffe2e2;
+/*    border: 1px solid #FE27B3;
+    border-radius: 10px;*/
+/*    background-color: ##ffe2e2;*/
+    border-bottom: 1px solid #e1e1e1;
 }
+
+
 
 .staff-image {
     display: block;
@@ -341,7 +344,7 @@ a:hover a:active {
 .sm_title {
     font-family: "Catamaran", Calibri, sans-serif, sans-serif;
     font-size: 22px;
-    color: #000;
+    color: #FE27B3;
     margin: 0 0 1em 0;
 }
 
