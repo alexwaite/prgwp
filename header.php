@@ -53,7 +53,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="front-page.php">Home</a></li>
+                            <li><a href="http://box5460.temp.domains/~pinkric5/staging/6552/">Home</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Our Garden Community
               <b class="caret"></b></a>
@@ -71,7 +71,7 @@
                                     <li><a href="#">History</a></li>
                                     <li><a href="#">Mission</a></li>
                                     <li><a href="#">Garden Locations</a></li>
-                                    <li><a href="our-team/">Our Board & Team </a></li>
+                                    <li><a href="http://box5460.temp.domains/~pinkric5/staging/6552/board/">Our Board & Team </a></li>
                                     <li><a href="#">Gallery</a></li>
                                 </ul>
                             </li>
