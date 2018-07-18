@@ -9,6 +9,7 @@
 <!--     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
  -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Catamaran" rel="stylesheet">
     <?php wp_head(); ?>
 
 </head>
@@ -45,14 +46,14 @@
                     <span class="icon-bar"></span>
                     <p>Menu</p>
                 </button>
-                        <a class="navbar-brand " href="">
-<img src="<?php echo get_template_directory_uri() . '/images/logimg.jpg'; ?>" alt="Pink Ribbon Logo">
+                        <a class="navbar-brand" href="">
+<img id="logo" src="<?php echo get_template_directory_uri() . '/images/logimg.jpg'; ?>" alt="Pink Ribbon Logo">
                     
                 </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="front-page.php">Home</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Our Garden Community
               <b class="caret"></b></a>
@@ -70,7 +71,7 @@
                                     <li><a href="#">History</a></li>
                                     <li><a href="#">Mission</a></li>
                                     <li><a href="#">Garden Locations</a></li>
-                                    <li><a href="about-us/">Our Board & Team </a></li>
+                                    <li><a href="our-team/">Our Board & Team </a></li>
                                     <li><a href="#">Gallery</a></li>
                                 </ul>
                             </li>
@@ -92,4 +93,3 @@
             </div>
         </div>
     </nav>
-

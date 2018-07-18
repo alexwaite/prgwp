@@ -10,11 +10,25 @@
 
 html,body {margin:0;}
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+    padding-top: 150px;
+}
 
 /*Top Nav*/
 
+#logo {
+    border-radius: 100px;
+    border: 2px solid #79305A;
+}
+
 .navbar {
-    background-color: #CCC;
+    background-color: #f0f0f0;
     height: 150px;
 }
 
@@ -35,7 +49,7 @@ html,body {margin:0;}
     color: #fff;
 }
 
-#navbarTwo a:hover {
+nav ul li a:hover {
     opacity: 0.5;
 }
 
@@ -136,7 +150,7 @@ a:hover a:active {
 .homeBodyText {
     width: 60%;
     margin: 0 auto;
-    font-family: Calibri, sans-sarif;
+    font-family: "Catamaran", Calibri, sans-serif;
     font-size: 24px;
     padding: 32px 10px 32px 10px;
     text-align: justify-all;
@@ -147,7 +161,7 @@ a:hover a:active {
 }
 
 .splash-img {
-  padding: 225px 0 375px 0;
+  padding: 175px 0 400px 0;
   width: 100%;
   max-height: 450px;
   background-size: cover;
@@ -156,11 +170,15 @@ a:hover a:active {
 }
 .splashText {
     color: #FE27B3;
-    font-family: /*"Helvetica Neue",Helvetica,*/Calibri, sans-sarif;
+    font-family: "Catamaran", Calibri, sans-serif;
     font-size: 96px;
     text-align: center;
     font-weight: bold;
-/*    text-shadow: 2px 2px 10px #000;*/
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
 }
 
 #splash1 {
@@ -182,7 +200,7 @@ a:hover a:active {
 .btn-large {
     color: #fff;
     text-shadow: 2px 2px 10px #000;
-    font-family: /*"Helvetica Neue",Helvetica,*/Calibri, sans-sarif;
+    font-family: "Catamaran", Calibri, sans-serif;
     font-size: 48px;
     font-weight: bold;
     margin: 0 auto;
@@ -263,41 +281,48 @@ a:hover a:active {
 
 /*******************Board & Staff page*********************************/
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.pg-title {
+    width: 90%;
+    margin: 1.5em auto 1em auto;
+    font-family: "Catamaran", Calibri, sans-serif, sans-serif;
+    font-size: 48px;;
+    font-weight: bold;
 }
+
 
 .card-container {
     display: block;
     overflow: auto;
-    width: 80%;
-    margin: 0 10% 0 10%;
+    width: 90%;
+    margin: 0 auto;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #e8e8e8;
+    background-color: #ffe2e2;
 }
 
 .staff-image {
-    display: inline-block;
+    display: block;
     float: left;
-    width: 25%;
-    padding: 2%;
-
+    width: 20%;
+    height: 96%;
+    padding: 2% 2% 2% 2%;
 }
+
 .sm_img {
+    display: block;
     height: auto;
-    max-width: 180px;
+    max-width: 170px;
     width: 100%;
     border-radius: 10px;
+    margin: auto;
+
 }
 
 .staff-card {
     display: inline-block;
     float: left;
-    width: 75%;
-    padding: 1% 2% 1% 0;
+    width: 80%;
+    padding: 2% 2% 2% 0;
 }
 
 .staff-card * {
@@ -305,21 +330,22 @@ a:hover a:active {
 }
 
 .sm_name {
-    font-family: Calibri, sans-sarif;
+    font-family: "Catamaran", Calibri, sans-serif, sans-serif;
     font-size: 30px;;
     font-weight: bold;
-    color: #FE27B3;
+    color: #000;
     margin: 0;
     padding: 0;
 }
 
 .sm_title {
-    font-family: Calibri, sans-sarif;
+    font-family: "Catamaran", Calibri, sans-serif, sans-serif;
     font-size: 22px;
+    color: #000;
     margin: 0 0 1em 0;
 }
 
 .sm_bio {
-    font-family: Calibri, sans-sarif;
+    font-family: "Catamaran", Calibri, sans-serif, sans-serif;
     font-size: 16px;
 }

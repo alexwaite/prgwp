@@ -3,7 +3,7 @@
 <div class="container-fluid" id="home-container">
 
     <div class="splash-img" id="splash1">
-        <p class="splashText">Green is the new pink</p>
+        <p class="splashText"><span style="color: #18A809;">Green</span> is the new pink</p>
     </div>
 
     <div class="homeBodyText">

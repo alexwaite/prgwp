@@ -2,8 +2,7 @@
 <?php get_header(); ?>
 
 
-<h1><?php the_title(); ?></h1>
-
+<h1 class="pg-title"><?php the_title(); ?></h1>
 
 <!-- Normal Page Content Loop -->
 <?php
