@@ -47,7 +47,7 @@
                     <p>Menu</p>
                 </button>
                         <a class="navbar-brand" href="">
-<img id="logo" src="<?php echo get_template_directory_uri() . '/images/logimg.jpg'; ?>" alt="Pink Ribbon Logo">
+<img id="logo" src="<?php echo get_template_directory_uri() . '/images/PRGpick2.png'; ?>" alt="Pink Ribbon Logo">
                     
                 </a>
                     </div>
