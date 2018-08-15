@@ -55,7 +55,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="http://box5460.temp.domains/~pinkric5/staging/6552/">Home</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Our Garden Community
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <?php wp_nav_menu( array( 'theme_location' => 'top_level_nav_menu_1' ) ) ?>
               <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Forum</a>
