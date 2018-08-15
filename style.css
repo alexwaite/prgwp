@@ -15,14 +15,11 @@ html,body {margin:0; padding:0; border: none;}
   display: table;
   clear: both;
 }
-div {
-    width: 100%;
-    float: right;
-}
 
-/* nav {
+nav {
     width: fit-content;
-} */
+} 
+
  body {
     display: inline-block;
     width: 100%;
@@ -31,17 +28,18 @@ div {
 
 /*Top Nav*/
 
-/*#logo {
-    border-radius: 100px;
-    border: 2px solid #79305A;
-}*/
-
-.navbar {
+div.navbar , .navbar{
+    width: 100%;
     background-color: #f0f0f0;
-/*    background-color: #fbafd3;*/
-    height: auto; /* 115ps? */
-    margin-bottom: 0;
+    height: auto; 
+    margin: 0;
     border: none;
+    float: right;
+}
+
+div.container , div {
+    float: right;
+    width: 100%;
 }
 
 .navbar a {
@@ -161,12 +159,11 @@ a:hover a:active {
 }
 
 .homeBodyText {
-    width: 60%;
     margin: 0 auto;
     font-family: "Catamaran", Calibri, sans-serif;
     font-size: 24px;
-    padding: 32px 10px 32px 10px;
-    text-align: justify-all;
+    padding: 32px 50px 32px 50px;
+    text-align: center;
 }
 
 .homeBodyText p {
