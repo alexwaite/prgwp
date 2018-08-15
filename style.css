@@ -238,6 +238,7 @@ a:hover a:active {
         font-size: 14px;
     }
     .navbar-brand img {
+        float: left;
         position: relative;
         right: 45px;
         bottom: 120px;

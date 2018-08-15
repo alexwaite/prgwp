@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="css/style.css">
  -->
     <link href="https://fonts.googleapis.com/css?family=Arimo|Catamaran" rel="stylesheet">
-    <?php wp_head(); 
+    <?php wp_head(); ?>
 
-          create_bootstrap_menu('top_level_nav_menu_1'); ?>
+</head>
+
+
+
+<body>
+    <!--Top Nav-->
+
+<?php create_bootstrap_menu('top_level_nav_menu_1') ?>
