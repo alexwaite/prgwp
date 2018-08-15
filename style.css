@@ -5,7 +5,7 @@
 */
 
 /* Globals */
-
+ 
 * {box-sizing: border-box;}
 
 html,body {margin:0; padding:0; border: none;}
@@ -15,10 +15,18 @@ html,body {margin:0; padding:0; border: none;}
   display: table;
   clear: both;
 }
+div {
+    width: 100%;
+    float: right;
+}
 
-body {
-    padding-top: 150px;
-/*    padding-bottom: 60px;*/
+/* nav {
+    width: fit-content;
+} */
+ body {
+    display: inline-block;
+    width: 100%;
+    width: fit-content;
 }
 
 /*Top Nav*/
@@ -31,7 +39,9 @@ body {
 .navbar {
     background-color: #f0f0f0;
 /*    background-color: #fbafd3;*/
-    height: 150px;
+    height: auto; /* 115ps? */
+    margin-bottom: 0;
+    border: none;
 }
 
 .navbar a {
@@ -59,7 +69,7 @@ nav ul li a:hover {
 #navbarTwo {
     background-color: #003300;
 /*    background-color: #6aa54e;*/
-    margin-top: 40px;
+  /*  margin-top: 40px; */
     border-bottom: 4px solid #79305A;
 }
 #navbarTwo .dropdown-menu a {
@@ -89,11 +99,11 @@ nav ul li a:hover {
 
 .navbar-brand {
     position: absolute;
-    padding: 
+    padding: auto;
 }
 
 .navbar-brand img {
-    position: relative;
+    /* position: relative; */
     right: 40px;
     bottom: 120px;
     height: 153px
@@ -238,8 +248,7 @@ a:hover a:active {
         font-size: 14px;
     }
     .navbar-brand img {
-        float: left;
-        position: relative;
+        
         right: 45px;
         bottom: 120px;
         height: 105px;
@@ -259,7 +268,6 @@ a:hover a:active {
     }
     .topnav a {
         display: none;
-        !important;
         background-color: yellow;
     }
     .search {
@@ -326,7 +334,7 @@ a:hover a:active {
 }
 
 .staff-card {
-    display: inline-block;
+    display: block; /* inline removed - flagged as error*/
     float: left;
     width: 80%;
     padding: 2% 2% 2% 0;
