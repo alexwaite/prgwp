@@ -1,5 +1,7 @@
 <?php 
 
+require('nav_function.php');
+
 show_admin_bar( false );
 
 function setup_styles_and_scripts() {
