@@ -41,8 +41,4 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 <?php endwhile; ?>
 
 
-
-
-
-
 <?php get_footer(); ?>

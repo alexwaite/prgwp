@@ -17,7 +17,7 @@
 
     <div class="homeBodyText">
     -->
-        <p>The Pink Ribbon Gardens are planted, tended, and harvested by breast cancer survivors. They work on a "Grow One, Give One" approach; for each bag of vegetables and herbs they get, they give a bag to a patient in treatment. <a href="">Find out more about you can participate</a>.
+        <p>The Pink Ribbon Gardens are planted, tended, and harvested by breast cancer survivors. They work on a "Grow One, Give One" approach; for each bag of vegetables and herbs they get, they give a bag to a patient in treatment. <a href=""><br>Find out more about how you can participate.</a>
         </p>
     </div>  
 
