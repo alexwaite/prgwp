@@ -1,5 +1,7 @@
 <?php 
 
+require('nav_function.php');
+
 show_admin_bar( false );
 
 function setup_styles_and_scripts() {
@@ -15,7 +17,8 @@ add_action( 'wp_enqueue_scripts', 'setup_styles_and_scripts' );
 function register_my_menus() {
   register_nav_menus(
     array(
-      'header-menu' => __( 'Header Menu' )
+	  'header-menu' => __( 'Header Menu' ),
+	  'top_level_nav_menu_1' => __( 'Top Level Menu 1' )
     )
   );
 }
