@@ -21,8 +21,9 @@ $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
 
-	<hr>
 
+	<hr>
+	
 	<div class="card-container clearfix">
 
 		<div class="staff-image">
@@ -35,10 +36,11 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			<p class="sm_bio"><?php the_field('sm_bio'); ?></p>
 		</div>
 
+
+
 	</div>
 
 
-	<hr>
 
 <!-- end custom port type loop -->
 <?php endwhile; ?>

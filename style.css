@@ -80,7 +80,7 @@ nav ul li a:hover {
 .navbar-header p {
     color: #fff;
     margin-top: 5px;
-  
+
 }
 .navbar-header .icon-bar{
     width: 35px;
@@ -89,7 +89,7 @@ nav ul li a:hover {
 
 .navbar-brand {
     position: absolute;
-    padding: 
+    padding:
 }
 
 .navbar-brand img {
@@ -183,6 +183,8 @@ a:hover a:active {
         -1px 1px 0 #fff,
         1px 1px 0 #fff;
 }
+
+
 
 #splash1 {
   background-image: url("images/veggies.jpg");
@@ -301,7 +303,7 @@ a:hover a:active {
 /*    border: 1px solid #FE27B3;
     border-radius: 10px;*/
 /*    background-color: #ffe2e2;*/
-    border-bottom: 1px solid #e1e1e1;
+/*    border-bottom: 1px solid #e1e1e1;*/
 }
 
 
@@ -363,7 +365,7 @@ a:hover a:active {
     position: relative;
 }
 
-footer {
+/* footer {
     position: absolute;
     height: 60px;
     width: 100%;
@@ -371,6 +373,5 @@ footer {
     bottom: 0;
     background-color: #ffe2e2;
     border-top: 1px solid #e1e1e1;
-/*    margin-top: 60px;*/
 }
-
+*/
