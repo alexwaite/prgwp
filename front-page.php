@@ -29,8 +29,12 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
     </div>
 
     <div class="btn-box">
-        <a> <button type="button" class="btn btn-large lefter" style="background-image: url(&quot;<?php the_field('fp-btn1-img'); ?>&quot;);"><?php the_field('fp-btn1-text') ?></button></a>
-        <a> <button type="button" class="btn btn-large righter" style="background-image: url(&quot;<?php the_field('fp-btn2-img'); ?>&quot;);"><?php the_field('fp-btn2-text') ?></button></a>
+      <div class="btn-parent lefter clearfix">
+        <button class="btn btn-large lefter" style="background-image: url(&quot;<?php the_field('fp-btn1-img'); ?>&quot;);"><?php the_field('fp-btn1-text') ?></button>
+      </div>
+      <div class="btn-parent righter clearfix">
+        <button class="btn btn-large righter" style="background-image: url(&quot;<?php the_field('fp-btn2-img'); ?>&quot;);"><?php the_field('fp-btn2-text') ?></button>
+      </div>
     </div>
 
 </div>
