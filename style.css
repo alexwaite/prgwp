@@ -58,9 +58,9 @@ div.container , div {
 }
 
 #logo:hover {
-  -webkit-transform: rotatey(180deg) rotatez(45deg) translatez(0.4em) translatey(0.4em);
-  -ms-transform: rotatey(180deg) rotate(45deg) translatez(0.4em) translatey(0.4em);
-  transform: rotatey(180deg) rotatez(45deg) translatez(0.4em) translatey(0.4em);
+  -webkit-transform: rotatey(360deg) rotatez(-45deg) translatez(0.4em) translatey(0.4em);
+  -ms-transform: rotatey(360deg) rotate(-45deg) translatez(0.4em) translatey(0.4em);
+  transform: rotatey(360deg) rotatez(-45deg) translatez(0.4em) translatey(0.4em);
 }
 
 /*Bottom Nav*/

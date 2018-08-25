@@ -15,7 +15,7 @@ function create_bootstrap_menu( $theme_location ) {
         $menu_list .= '<!-- Brand and toggle get grouped for better mobile display -->' ."\n";
         $menu_list .= '<div class="navbar-header">' ."\n";
 
-        $menu_list .= '<a class="navbar-brand" href="'. home_url() . '"><img id="logo" src="'. get_template_directory_uri() .'/images/PRGpick2.png" alt="Pink Ribbon Logo"></a>'."\n";
+        $menu_list .= '<a class="navbar-brand" href="'. home_url() . '"><img id="logo" src="'. get_template_directory_uri() .'/images/PRGpick3.png" alt="Pink Ribbon Logo"></a>'."\n";
 
         $menu_list .= '<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">'."\n";
         $menu_list .= '<span class="sr-only">Toggle navigation</span>' ."\n";
